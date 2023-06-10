@@ -1,0 +1,207 @@
+.logbutton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    position: absolute;
+}
+
+.logbutton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.navhead {
+    position: static;
+    height: 14px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #D5AFAF;
+}
+
+.navbars {
+    position: static;
+    height: 45px;
+    left: 0px;
+    right: 0px;
+    top: 14px;
+    background: #FEF0F0;
+}
+
+.navigation a {
+    font-family: The Girl Next Door;
+    /* line-height: 44px; */
+}
+
+.searchicon {
+    width: 61px;
+    height: 65px;
+    left: 1271px;
+    top: 14px;
+}
+
+.menuicon {
+    position: absolute;
+    width: 25px;
+    height: 24.14px;
+    left: 339px;
+    top: 23px;
+}
+
+.homeicon {
+    position: absolute;
+    width: 25px;
+    height: 24.83px;
+    left: 183px;
+    top: 20px;
+}
+
+.usericon {
+    position: absolute;
+    width: 24px;
+    height: 26px;
+    left: 233px;
+    top: 20px;
+}
+
+.mapicon {
+    position: absolute;
+    width: 25px;
+    height: 26.64px;
+    left: 282px;
+    top: 20px;
+}
+
+.MaintainTransLogo {
+    position: absolute;
+    width: 59px;
+    height: 45px;
+    left: 0px;
+    top: 13.5px;
+}
+
+@media (min-width:1025px) {
+    /* hi-res laptops and desktops */
+    .navhead {
+        display: none;
+    }
+    .navbars {
+        position: absolute;
+        height: 150px;
+        left: 0px;
+        top: 0px;
+        background: transparent;
+    }
+    .MaintainTransLogo {
+        position: absolute;
+        width: 146px;
+        height: 150px;
+        left: 10px;
+        z-index: 10;
+    }
+    a:hover {
+        background-color: #ffffff;
+        opacity: 0.85;
+        
+    }
+    a.home {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+        position: absolute;
+        width: 127px;
+        height: 64px;
+        left: 508px;
+        top: 14px;
+        border: 3px solid #FFFFFF;
+        border-radius: 25px;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+    a.map {
+        position: absolute;
+        width: 127px;
+        height: 64px;
+        left: 671px;
+        top: 14px;
+        border: 3px solid #FFFFFF;
+        border-radius: 25px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 10;
+    }
+    a.menu {
+        position: absolute;
+        width: 127px;
+        height: 64px;
+        left: 840px;
+        top: 13px;
+        border: 3px solid #FFFFFF;
+        border-radius: 25px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 10;
+    }
+    a.user {
+        position: absolute;
+        width: 127px;
+        height: 64px;
+        left: 1000px;
+        top: 13px;
+        border: 3px solid #FFFFFF;
+        border-radius: 25px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 10;
+    }
+    .homeicon {
+        display: none;
+    }
+    .usericon {
+        display: none;
+    }
+    .mapicon {
+        display: none;
+    }
+    .menuicon {
+        display: none;
+    }
+    .container {
+        position: relative;
+        top: 0px;
+    }
+    .logbutton {
+        position: absolute;
+        z-index: 10;
+        left: 20%;
+        top: 25px;
+    }
+}
